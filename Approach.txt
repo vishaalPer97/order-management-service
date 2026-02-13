@@ -1,0 +1,3 @@
+I have designed the application using a clean layered approach so that each part has a clear responsibility — the controller handles requests, the service contains business logic, and the repository manages data. I focused on keeping the code simple, maintainable, and scalable by adding proper validation, centralized error handling, pagination, and logging. Even though it uses in-memory storage, the structure allows it to be easily extended to a database-backed microservice in the future.
+
+I have managed exceptions globally and tried to keep all ends loosely coupled to scale in the future with minimal changes in the existing code base.
